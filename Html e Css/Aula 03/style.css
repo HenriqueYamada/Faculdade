@@ -1,0 +1,44 @@
+body{
+    background-image: url(imagem-fundo.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(37, 201, 37);
+    line-height: 36pt;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px; 
+    color: white;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100vh;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 75vw;
+}
+
+img {
+    border-radius: 16px;
+    margin-bottom: 16px;
+    width: 50vw;
+}

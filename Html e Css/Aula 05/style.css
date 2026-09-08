@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.minha_foto img {
+  border-radius: 10px;
+  height: 500px;
+}
