@@ -1,6 +1,7 @@
-#include <iostream> // entrada saída de dados
-#include <conio.h> // getch()
-#include <locale> // acentuação
+#include <iostream> // Entrada saída de dados
+#include <conio.h> // Getch()
+#include <locale> // Acentuação
+#include <iomanip> // Formatação
 #include <bits/stdc++.h>
 //system("cls"); -> limpar a tela
 //F11 -> Gerar terminal
