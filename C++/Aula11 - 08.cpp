@@ -1,13 +1,13 @@
 #include <iostream>
 #include <iomanip> // setw()
-#include <locale>  // acentuações BR
+#include <locale>  // acentuaï¿½ï¿½es BR
 #include <conio.h> // getch()
 #include <cstdlib> // system()
 #include <string>
 
 using namespace std;
 
-// Variáveis globais
+// Variï¿½veis globais
 int const T = 4;
 string vCid[T] = {"Assis", "CM", "Taruma", "PP"};
 bool nMapa[T][T] = {
@@ -41,15 +41,15 @@ void leitura() {
     system("cls");
     cout << "Leitura das Cidades\n\n";
     for(int i = 0; i < T; i++) {
-        cout << "Informe o nome da " << i + 1 << "ª cidade: ";
-        cin >> ws; // Limpa espaços e buffers pendentes antes do getline
+        cout << "Informe o nome da " << i + 1 << "ï¿½ cidade: ";
+        cin >> ws; // Limpa espaï¿½os e buffers pendentes antes do getline
         getline(cin, vCid[i]);
     }
     for(int i = 0; i < T; i++) {
         for(int j = 0; j < T; j++) {
-//            cout << "Exite estrada de " << vCid[i] << " para " << vCid[j] << " (0 = Não | 1 = Sim): ";
+//            cout << "Exite estrada de " << vCid[i] << " para " << vCid[j] << " (0 = Nï¿½o | 1 = Sim): ";
 //            cin >> nMapa[i][j];
-			  nMapa[i][j]
+			  nMapa[i][j];
         }
         cout << setw(2) << " | " << endl;
     }
@@ -66,7 +66,7 @@ int main() {
         cout << "\t2 - Leitura\n";
         cout << "\t0 - Sair\n";
         
-        cout << "\nEscolha uma opção: ";
+        cout << "\nEscolha uma opï¿½ï¿½o: ";
         cin >> op;
         
         switch(op) {
@@ -84,7 +84,7 @@ int main() {
                 break;
                 
             default:
-                cout << "Opção inválida!\n";
+                cout << "Opï¿½ï¿½o invï¿½lida!\n";
                 getch();
                 break;
         }
